@@ -15,7 +15,7 @@ export default {
         return {
             statusClient: "Connecting...",
             statusServer: "Connecting...",
-            products: ["papa", "mama", "tata"],
+            products: ["potato", "carrot", "tomato"],
             store: this.$store,
             vx: this.$store.state,
         };
