@@ -29,9 +29,6 @@ module.exports = {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     'nuxt-socket-io'
   ],
@@ -47,12 +44,6 @@ module.exports = {
             : "http://localhost:3000",
       },
     ],
-  },
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
