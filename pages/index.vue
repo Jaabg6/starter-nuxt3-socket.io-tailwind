@@ -33,6 +33,10 @@ export default {
             this.socket.on("statusServerConnect", (data) => {
                 this.statusServer = data;
             });
+
+            this.socket.on("event-frontend" , (data) => {
+                this.statusServer = "Connected";
+            });
         });
     },
     components: { Navbar }

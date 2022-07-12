@@ -1,3 +1,6 @@
+
+    
+
 export const state = () => ({
     products: [],
 })
@@ -6,8 +9,6 @@ export const state = () => ({
 export const mutations = {
     setProducts(state, products) {
         state.products = products
-
-        console.log($nuxtSocket)
     }
 }
 
