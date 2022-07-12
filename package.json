@@ -1,0 +1,40 @@
+{
+  "name": "awesome-stater-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "core-js": "^3.19.3",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
+    "nuxt": "^2.15.8",
+    "nuxt-socket-io": "^2.0.3",
+    "socket.io": "^4.5.1",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^1.18.9",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1"
+  }
+}
