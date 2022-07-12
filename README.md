@@ -1,4 +1,4 @@
-# awesome-stater-nuxt
+# Starter Nuxt3 - Socket.io + Tailwind
 
 ## Build Setup
 
